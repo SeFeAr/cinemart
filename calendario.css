@@ -1,0 +1,62 @@
+@keyframes backgroundColor{
+  from{
+    background-color: black;
+  }to{
+    background-color: #190710;
+  }
+}
+body{
+  background-color: black;
+}
+.calendario{
+  animation: backgroundColor 2s forwards;
+  animation-iteration-count: infinite;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.numero{
+  width: 100px;
+  height: 100px;
+  border: white 5px solid;
+  margin-top: 0;
+  text-align: center;
+  color: white;
+  font-family: "Century Gothic";
+  font-size: 2.3em;
+  padding-top: 15px;
+}
+#titulo{
+  text-align: center;
+  color: white;
+  font-size: 2.1em;
+  margin: 0 auto;
+
+}
+#actualYear{
+  text-align: center;
+  font-size: 3em;
+  margin: 0 auto;
+  color: white;
+}
+#atras{
+  float: left;
+  font-size: 5em;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+#atras:focus{
+  outline: none;
+}
+#delante{
+  float: right;
+  font-size: 5em;
+  border: none;
+  color: white;
+  background-color: transparent;
+}
+#delante:focus{
+  outline: none;
+}
